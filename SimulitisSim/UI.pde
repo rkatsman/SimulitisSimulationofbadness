@@ -29,16 +29,16 @@ public class UI{
     textSize(citySize * 0.03);
     textAlign(CENTER);
     fill(0);
+    //jhjhj
+    // Replace the number 0 with an expression that contains the variable citSize
+    text("Day: " + dayCount, citySize - 460, citySize - 25);
     
     // Replace the number 0 with an expression that contains the variable citSize
-    text("Day: " + dayCount, 0, citySize - 25);
+    text("Current Infections: " + infected, citySize - 350, citySize - 25);
+    
+    text("Recovered: " + recovered, citySize - 101, citySize - 25);
     
     // Replace the number 0 with an expression that contains the variable citSize
-    text("Current Infections: " + infected, 0, citySize - 25);
-    
-    text("Recovered: " + recovered, 0, citySize - 25);
-    
-    // Replace the number 0 with an expression that contains the variable citSize
-    text("Dead: " + dead, 0, citySize - 25);
+    text("Dead: " + dead, citySize - 220, citySize - 25);
   }
 }
